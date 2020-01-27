@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC02B3DD23DF25C300DD7867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B3DC23DF25C300DD7867 /* AppDelegate.swift */; };
+		EC02B3DF23DF25C300DD7867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B3DE23DF25C300DD7867 /* SceneDelegate.swift */; };
+		EC02B3E123DF25C300DD7867 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B3E023DF25C300DD7867 /* ContentView.swift */; };
+		EC02B3E323DF25C400DD7867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC02B3E223DF25C400DD7867 /* Assets.xcassets */; };
+		EC02B3E623DF25C400DD7867 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC02B3E523DF25C400DD7867 /* Preview Assets.xcassets */; };
+		EC02B3E923DF25C400DD7867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC02B3E723DF25C400DD7867 /* LaunchScreen.storyboard */; };
+		EC02B3F423DF25C400DD7867 /* Cesta_de_frutasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B3F323DF25C400DD7867 /* Cesta_de_frutasTests.swift */; };
+		EC02B3FF23DF25C400DD7867 /* Cesta_de_frutasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B3FE23DF25C400DD7867 /* Cesta_de_frutasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC02B3F023DF25C400DD7867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC02B3D123DF25C300DD7867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC02B3D823DF25C300DD7867;
+			remoteInfo = "Cesta de frutas";
+		};
+		EC02B3FB23DF25C400DD7867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC02B3D123DF25C300DD7867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC02B3D823DF25C300DD7867;
+			remoteInfo = "Cesta de frutas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC02B3D923DF25C300DD7867 /* Cesta de frutas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cesta de frutas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC02B3DC23DF25C300DD7867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC02B3DE23DF25C300DD7867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC02B3E023DF25C300DD7867 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC02B3E223DF25C400DD7867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC02B3E523DF25C400DD7867 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC02B3E823DF25C400DD7867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC02B3EA23DF25C400DD7867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC02B3EF23DF25C400DD7867 /* Cesta de frutasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cesta de frutasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC02B3F323DF25C400DD7867 /* Cesta_de_frutasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cesta_de_frutasTests.swift; sourceTree = "<group>"; };
+		EC02B3F523DF25C400DD7867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC02B3FA23DF25C400DD7867 /* Cesta de frutasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cesta de frutasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC02B3FE23DF25C400DD7867 /* Cesta_de_frutasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cesta_de_frutasUITests.swift; sourceTree = "<group>"; };
+		EC02B40023DF25C400DD7867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC02B3D623DF25C300DD7867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC02B3EC23DF25C400DD7867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC02B3F723DF25C400DD7867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC02B3D023DF25C300DD7867 = {
+			isa = PBXGroup;
+			children = (
+				EC02B3DB23DF25C300DD7867 /* Cesta de frutas */,
+				EC02B3F223DF25C400DD7867 /* Cesta de frutasTests */,
+				EC02B3FD23DF25C400DD7867 /* Cesta de frutasUITests */,
+				EC02B3DA23DF25C300DD7867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC02B3DA23DF25C300DD7867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B3D923DF25C300DD7867 /* Cesta de frutas.app */,
+				EC02B3EF23DF25C400DD7867 /* Cesta de frutasTests.xctest */,
+				EC02B3FA23DF25C400DD7867 /* Cesta de frutasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC02B3DB23DF25C300DD7867 /* Cesta de frutas */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B3DC23DF25C300DD7867 /* AppDelegate.swift */,
+				EC02B3DE23DF25C300DD7867 /* SceneDelegate.swift */,
+				EC02B3E023DF25C300DD7867 /* ContentView.swift */,
+				EC02B3E223DF25C400DD7867 /* Assets.xcassets */,
+				EC02B3E723DF25C400DD7867 /* LaunchScreen.storyboard */,
+				EC02B3EA23DF25C400DD7867 /* Info.plist */,
+				EC02B3E423DF25C400DD7867 /* Preview Content */,
+			);
+			path = "Cesta de frutas";
+			sourceTree = "<group>";
+		};
+		EC02B3E423DF25C400DD7867 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B3E523DF25C400DD7867 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC02B3F223DF25C400DD7867 /* Cesta de frutasTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B3F323DF25C400DD7867 /* Cesta_de_frutasTests.swift */,
+				EC02B3F523DF25C400DD7867 /* Info.plist */,
+			);
+			path = "Cesta de frutasTests";
+			sourceTree = "<group>";
+		};
+		EC02B3FD23DF25C400DD7867 /* Cesta de frutasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B3FE23DF25C400DD7867 /* Cesta_de_frutasUITests.swift */,
+				EC02B40023DF25C400DD7867 /* Info.plist */,
+			);
+			path = "Cesta de frutasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC02B3D823DF25C300DD7867 /* Cesta de frutas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC02B40323DF25C400DD7867 /* Build configuration list for PBXNativeTarget "Cesta de frutas" */;
+			buildPhases = (
+				EC02B3D523DF25C300DD7867 /* Sources */,
+				EC02B3D623DF25C300DD7867 /* Frameworks */,
+				EC02B3D723DF25C300DD7867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cesta de frutas";
+			productName = "Cesta de frutas";
+			productReference = EC02B3D923DF25C300DD7867 /* Cesta de frutas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC02B3EE23DF25C400DD7867 /* Cesta de frutasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC02B40623DF25C400DD7867 /* Build configuration list for PBXNativeTarget "Cesta de frutasTests" */;
+			buildPhases = (
+				EC02B3EB23DF25C400DD7867 /* Sources */,
+				EC02B3EC23DF25C400DD7867 /* Frameworks */,
+				EC02B3ED23DF25C400DD7867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC02B3F123DF25C400DD7867 /* PBXTargetDependency */,
+			);
+			name = "Cesta de frutasTests";
+			productName = "Cesta de frutasTests";
+			productReference = EC02B3EF23DF25C400DD7867 /* Cesta de frutasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC02B3F923DF25C400DD7867 /* Cesta de frutasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC02B40923DF25C400DD7867 /* Build configuration list for PBXNativeTarget "Cesta de frutasUITests" */;
+			buildPhases = (
+				EC02B3F623DF25C400DD7867 /* Sources */,
+				EC02B3F723DF25C400DD7867 /* Frameworks */,
+				EC02B3F823DF25C400DD7867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC02B3FC23DF25C400DD7867 /* PBXTargetDependency */,
+			);
+			name = "Cesta de frutasUITests";
+			productName = "Cesta de frutasUITests";
+			productReference = EC02B3FA23DF25C400DD7867 /* Cesta de frutasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC02B3D123DF25C300DD7867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = jnr;
+				TargetAttributes = {
+					EC02B3D823DF25C300DD7867 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EC02B3EE23DF25C400DD7867 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = EC02B3D823DF25C300DD7867;
+					};
+					EC02B3F923DF25C400DD7867 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = EC02B3D823DF25C300DD7867;
+					};
+				};
+			};
+			buildConfigurationList = EC02B3D423DF25C300DD7867 /* Build configuration list for PBXProject "Cesta de frutas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC02B3D023DF25C300DD7867;
+			productRefGroup = EC02B3DA23DF25C300DD7867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC02B3D823DF25C300DD7867 /* Cesta de frutas */,
+				EC02B3EE23DF25C400DD7867 /* Cesta de frutasTests */,
+				EC02B3F923DF25C400DD7867 /* Cesta de frutasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC02B3D723DF25C300DD7867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC02B3E923DF25C400DD7867 /* LaunchScreen.storyboard in Resources */,
+				EC02B3E623DF25C400DD7867 /* Preview Assets.xcassets in Resources */,
+				EC02B3E323DF25C400DD7867 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC02B3ED23DF25C400DD7867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC02B3F823DF25C400DD7867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC02B3D523DF25C300DD7867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC02B3DD23DF25C300DD7867 /* AppDelegate.swift in Sources */,
+				EC02B3DF23DF25C300DD7867 /* SceneDelegate.swift in Sources */,
+				EC02B3E123DF25C300DD7867 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC02B3EB23DF25C400DD7867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC02B3F423DF25C400DD7867 /* Cesta_de_frutasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC02B3F623DF25C400DD7867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC02B3FF23DF25C400DD7867 /* Cesta_de_frutasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC02B3F123DF25C400DD7867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC02B3D823DF25C300DD7867 /* Cesta de frutas */;
+			targetProxy = EC02B3F023DF25C400DD7867 /* PBXContainerItemProxy */;
+		};
+		EC02B3FC23DF25C400DD7867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC02B3D823DF25C300DD7867 /* Cesta de frutas */;
+			targetProxy = EC02B3FB23DF25C400DD7867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC02B3E723DF25C400DD7867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC02B3E823DF25C400DD7867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC02B40123DF25C400DD7867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC02B40223DF25C400DD7867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC02B40423DF25C400DD7867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cesta de frutas/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y2362CV48;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Cesta de frutas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnr.Cesta-de-frutas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC02B40523DF25C400DD7867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cesta de frutas/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y2362CV48;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Cesta de frutas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnr.Cesta-de-frutas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC02B40723DF25C400DD7867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y2362CV48;
+				INFOPLIST_FILE = "Cesta de frutasTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnr.Cesta-de-frutasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cesta de frutas.app/Cesta de frutas";
+			};
+			name = Debug;
+		};
+		EC02B40823DF25C400DD7867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y2362CV48;
+				INFOPLIST_FILE = "Cesta de frutasTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnr.Cesta-de-frutasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cesta de frutas.app/Cesta de frutas";
+			};
+			name = Release;
+		};
+		EC02B40A23DF25C400DD7867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y2362CV48;
+				INFOPLIST_FILE = "Cesta de frutasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnr.Cesta-de-frutasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cesta de frutas";
+			};
+			name = Debug;
+		};
+		EC02B40B23DF25C400DD7867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y2362CV48;
+				INFOPLIST_FILE = "Cesta de frutasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnr.Cesta-de-frutasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cesta de frutas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC02B3D423DF25C300DD7867 /* Build configuration list for PBXProject "Cesta de frutas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC02B40123DF25C400DD7867 /* Debug */,
+				EC02B40223DF25C400DD7867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC02B40323DF25C400DD7867 /* Build configuration list for PBXNativeTarget "Cesta de frutas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC02B40423DF25C400DD7867 /* Debug */,
+				EC02B40523DF25C400DD7867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC02B40623DF25C400DD7867 /* Build configuration list for PBXNativeTarget "Cesta de frutasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC02B40723DF25C400DD7867 /* Debug */,
+				EC02B40823DF25C400DD7867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC02B40923DF25C400DD7867 /* Build configuration list for PBXNativeTarget "Cesta de frutasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC02B40A23DF25C400DD7867 /* Debug */,
+				EC02B40B23DF25C400DD7867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC02B3D123DF25C300DD7867 /* Project object */;
+}
