@@ -1,0 +1,6 @@
+framework module Pods_Cesta_de_frutasTests {
+  umbrella header "Pods-Cesta de frutasTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

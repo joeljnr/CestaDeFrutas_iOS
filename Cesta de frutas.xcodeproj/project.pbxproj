@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700124C42DF8BF261DC10A47 /* Pods_Cesta_de_frutas_Cesta_de_frutasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E2703F1E7185D9485F4D1F /* Pods_Cesta_de_frutas_Cesta_de_frutasUITests.framework */; };
+		A10EB15CCBE4B92CD2FD52CB /* Pods_Cesta_de_frutas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7612475B1D97CF2BF1C8D5E3 /* Pods_Cesta_de_frutas.framework */; };
+		B3D113848AE82E6A11277502 /* Pods_Cesta_de_frutasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2419BC05F1709FD38DF68E68 /* Pods_Cesta_de_frutasTests.framework */; };
 		EC02B3DD23DF25C300DD7867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B3DC23DF25C300DD7867 /* AppDelegate.swift */; };
 		EC02B3DF23DF25C300DD7867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B3DE23DF25C300DD7867 /* SceneDelegate.swift */; };
 		EC02B3E123DF25C300DD7867 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B3E023DF25C300DD7867 /* ContentView.swift */; };
@@ -15,6 +18,14 @@
 		EC02B3E923DF25C400DD7867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC02B3E723DF25C400DD7867 /* LaunchScreen.storyboard */; };
 		EC02B3F423DF25C400DD7867 /* Cesta_de_frutasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B3F323DF25C400DD7867 /* Cesta_de_frutasTests.swift */; };
 		EC02B3FF23DF25C400DD7867 /* Cesta_de_frutasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B3FE23DF25C400DD7867 /* Cesta_de_frutasUITests.swift */; };
+		EC02B40E23DF25F500DD7867 /* FruitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B40D23DF25F500DD7867 /* FruitsViewController.swift */; };
+		EC02B41323DF292B00DD7867 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B41223DF292B00DD7867 /* Utils.swift */; };
+		EC02B41623DF2B2600DD7867 /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B41523DF2B2600DD7867 /* ClassExtensions.swift */; };
+		EC02B41923DF301100DD7867 /* FruitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B41823DF301100DD7867 /* FruitCell.swift */; };
+		EC02B41B23DF33DD00DD7867 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B41A23DF33DD00DD7867 /* Fruit.swift */; };
+		EC02B41D23DF3B4C00DD7867 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B41C23DF3B4C00DD7867 /* NavigationController.swift */; };
+		EC02B41F23DF4EAC00DD7867 /* FruitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B41E23DF4EAC00DD7867 /* FruitsViewModel.swift */; };
+		EC02B42123DF75B300DD7867 /* FruitRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02B42023DF75B300DD7867 /* FruitRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2419BC05F1709FD38DF68E68 /* Pods_Cesta_de_frutasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cesta_de_frutasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416F612DB643F13AEA25C38C /* Pods-Cesta de frutas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cesta de frutas.release.xcconfig"; path = "Target Support Files/Pods-Cesta de frutas/Pods-Cesta de frutas.release.xcconfig"; sourceTree = "<group>"; };
+		57D3A76A510119925AFDC4FA /* Pods-Cesta de frutas-Cesta de frutasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cesta de frutas-Cesta de frutasUITests.release.xcconfig"; path = "Target Support Files/Pods-Cesta de frutas-Cesta de frutasUITests/Pods-Cesta de frutas-Cesta de frutasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7612475B1D97CF2BF1C8D5E3 /* Pods_Cesta_de_frutas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cesta_de_frutas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C41591DEF22A9C3ABF1712C /* Pods-Cesta de frutas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cesta de frutas.debug.xcconfig"; path = "Target Support Files/Pods-Cesta de frutas/Pods-Cesta de frutas.debug.xcconfig"; sourceTree = "<group>"; };
+		91C52D5214965BBE56F245A7 /* Pods-Cesta de frutasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cesta de frutasTests.release.xcconfig"; path = "Target Support Files/Pods-Cesta de frutasTests/Pods-Cesta de frutasTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0ED5BD3D14E6DC856984B8C /* Pods-Cesta de frutasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cesta de frutasTests.debug.xcconfig"; path = "Target Support Files/Pods-Cesta de frutasTests/Pods-Cesta de frutasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9A1F9F1BE5C85A4712E7BC /* Pods-Cesta de frutas-Cesta de frutasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cesta de frutas-Cesta de frutasUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cesta de frutas-Cesta de frutasUITests/Pods-Cesta de frutas-Cesta de frutasUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC02B3D923DF25C300DD7867 /* Cesta de frutas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cesta de frutas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC02B3DC23DF25C300DD7867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC02B3DE23DF25C300DD7867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,15 @@
 		EC02B3FA23DF25C400DD7867 /* Cesta de frutasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cesta de frutasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC02B3FE23DF25C400DD7867 /* Cesta_de_frutasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cesta_de_frutasUITests.swift; sourceTree = "<group>"; };
 		EC02B40023DF25C400DD7867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC02B40D23DF25F500DD7867 /* FruitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewController.swift; sourceTree = "<group>"; };
+		EC02B41223DF292B00DD7867 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		EC02B41523DF2B2600DD7867 /* ClassExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExtensions.swift; sourceTree = "<group>"; };
+		EC02B41823DF301100DD7867 /* FruitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCell.swift; sourceTree = "<group>"; };
+		EC02B41A23DF33DD00DD7867 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		EC02B41C23DF3B4C00DD7867 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		EC02B41E23DF4EAC00DD7867 /* FruitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewModel.swift; sourceTree = "<group>"; };
+		EC02B42023DF75B300DD7867 /* FruitRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRepository.swift; sourceTree = "<group>"; };
+		F9E2703F1E7185D9485F4D1F /* Pods_Cesta_de_frutas_Cesta_de_frutasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cesta_de_frutas_Cesta_de_frutasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10EB15CCBE4B92CD2FD52CB /* Pods_Cesta_de_frutas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D113848AE82E6A11277502 /* Pods_Cesta_de_frutasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				700124C42DF8BF261DC10A47 /* Pods_Cesta_de_frutas_Cesta_de_frutasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A9D75EF3DA964D284C1871A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7612475B1D97CF2BF1C8D5E3 /* Pods_Cesta_de_frutas.framework */,
+				F9E2703F1E7185D9485F4D1F /* Pods_Cesta_de_frutas_Cesta_de_frutasUITests.framework */,
+				2419BC05F1709FD38DF68E68 /* Pods_Cesta_de_frutasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ABA935C9BB4026876AA2369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C41591DEF22A9C3ABF1712C /* Pods-Cesta de frutas.debug.xcconfig */,
+				416F612DB643F13AEA25C38C /* Pods-Cesta de frutas.release.xcconfig */,
+				DE9A1F9F1BE5C85A4712E7BC /* Pods-Cesta de frutas-Cesta de frutasUITests.debug.xcconfig */,
+				57D3A76A510119925AFDC4FA /* Pods-Cesta de frutas-Cesta de frutasUITests.release.xcconfig */,
+				A0ED5BD3D14E6DC856984B8C /* Pods-Cesta de frutasTests.debug.xcconfig */,
+				91C52D5214965BBE56F245A7 /* Pods-Cesta de frutasTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EC02B3D023DF25C300DD7867 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +137,8 @@
 				EC02B3F223DF25C400DD7867 /* Cesta de frutasTests */,
 				EC02B3FD23DF25C400DD7867 /* Cesta de frutasUITests */,
 				EC02B3DA23DF25C300DD7867 /* Products */,
+				6ABA935C9BB4026876AA2369 /* Pods */,
+				0A9D75EF3DA964D284C1871A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +155,11 @@
 		EC02B3DB23DF25C300DD7867 /* Cesta de frutas */ = {
 			isa = PBXGroup;
 			children = (
+				EC02B40C23DF25DD00DD7867 /* views */,
+				EC02B40F23DF263300DD7867 /* viewmodels */,
+				EC02B41023DF263C00DD7867 /* repositories */,
+				EC02B41123DF27F500DD7867 /* models */,
+				EC02B41423DF293000DD7867 /* Utils */,
 				EC02B3DC23DF25C300DD7867 /* AppDelegate.swift */,
 				EC02B3DE23DF25C300DD7867 /* SceneDelegate.swift */,
 				EC02B3E023DF25C300DD7867 /* ContentView.swift */,
@@ -136,6 +197,57 @@
 			path = "Cesta de frutasUITests";
 			sourceTree = "<group>";
 		};
+		EC02B40C23DF25DD00DD7867 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B41723DF2FF000DD7867 /* cells */,
+				EC02B40D23DF25F500DD7867 /* FruitsViewController.swift */,
+				EC02B41C23DF3B4C00DD7867 /* NavigationController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EC02B40F23DF263300DD7867 /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B41E23DF4EAC00DD7867 /* FruitsViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		EC02B41023DF263C00DD7867 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B42023DF75B300DD7867 /* FruitRepository.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		EC02B41123DF27F500DD7867 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B41A23DF33DD00DD7867 /* Fruit.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		EC02B41423DF293000DD7867 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B41223DF292B00DD7867 /* Utils.swift */,
+				EC02B41523DF2B2600DD7867 /* ClassExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EC02B41723DF2FF000DD7867 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				EC02B41823DF301100DD7867 /* FruitCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC02B40323DF25C400DD7867 /* Build configuration list for PBXNativeTarget "Cesta de frutas" */;
 			buildPhases = (
+				D1BCCF62866165CCE711E26D /* [CP] Check Pods Manifest.lock */,
 				EC02B3D523DF25C300DD7867 /* Sources */,
 				EC02B3D623DF25C300DD7867 /* Frameworks */,
 				EC02B3D723DF25C300DD7867 /* Resources */,
+				EE2518E3266BBB690F18DE6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC02B40623DF25C400DD7867 /* Build configuration list for PBXNativeTarget "Cesta de frutasTests" */;
 			buildPhases = (
+				FC52CA774F1B0DE6E9AAFE6B /* [CP] Check Pods Manifest.lock */,
 				EC02B3EB23DF25C400DD7867 /* Sources */,
 				EC02B3EC23DF25C400DD7867 /* Frameworks */,
 				EC02B3ED23DF25C400DD7867 /* Resources */,
@@ -178,9 +293,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC02B40923DF25C400DD7867 /* Build configuration list for PBXNativeTarget "Cesta de frutasUITests" */;
 			buildPhases = (
+				E8BF37CB7012B7D3BB385DD4 /* [CP] Check Pods Manifest.lock */,
 				EC02B3F623DF25C400DD7867 /* Sources */,
 				EC02B3F723DF25C400DD7867 /* Frameworks */,
 				EC02B3F823DF25C400DD7867 /* Resources */,
+				423AC50FD563E5890F401524 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,13 +379,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		423AC50FD563E5890F401524 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cesta de frutas-Cesta de frutasUITests/Pods-Cesta de frutas-Cesta de frutasUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cesta de frutas-Cesta de frutasUITests/Pods-Cesta de frutas-Cesta de frutasUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cesta de frutas-Cesta de frutasUITests/Pods-Cesta de frutas-Cesta de frutasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BCCF62866165CCE711E26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cesta de frutas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8BF37CB7012B7D3BB385DD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cesta de frutas-Cesta de frutasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2518E3266BBB690F18DE6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cesta de frutas/Pods-Cesta de frutas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cesta de frutas/Pods-Cesta de frutas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cesta de frutas/Pods-Cesta de frutas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC52CA774F1B0DE6E9AAFE6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cesta de frutasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC02B3D523DF25C300DD7867 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC02B42123DF75B300DD7867 /* FruitRepository.swift in Sources */,
+				EC02B41B23DF33DD00DD7867 /* Fruit.swift in Sources */,
+				EC02B41F23DF4EAC00DD7867 /* FruitsViewModel.swift in Sources */,
+				EC02B41323DF292B00DD7867 /* Utils.swift in Sources */,
 				EC02B3DD23DF25C300DD7867 /* AppDelegate.swift in Sources */,
+				EC02B40E23DF25F500DD7867 /* FruitsViewController.swift in Sources */,
+				EC02B41D23DF3B4C00DD7867 /* NavigationController.swift in Sources */,
 				EC02B3DF23DF25C300DD7867 /* SceneDelegate.swift in Sources */,
+				EC02B41923DF301100DD7867 /* FruitCell.swift in Sources */,
+				EC02B41623DF2B2600DD7867 /* ClassExtensions.swift in Sources */,
 				EC02B3E123DF25C300DD7867 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +660,7 @@
 		};
 		EC02B40423DF25C400DD7867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C41591DEF22A9C3ABF1712C /* Pods-Cesta de frutas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +681,7 @@
 		};
 		EC02B40523DF25C400DD7867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416F612DB643F13AEA25C38C /* Pods-Cesta de frutas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +702,7 @@
 		};
 		EC02B40723DF25C400DD7867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0ED5BD3D14E6DC856984B8C /* Pods-Cesta de frutasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +725,7 @@
 		};
 		EC02B40823DF25C400DD7867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C52D5214965BBE56F245A7 /* Pods-Cesta de frutasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +748,7 @@
 		};
 		EC02B40A23DF25C400DD7867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9A1F9F1BE5C85A4712E7BC /* Pods-Cesta de frutas-Cesta de frutasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +769,7 @@
 		};
 		EC02B40B23DF25C400DD7867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D3A76A510119925AFDC4FA /* Pods-Cesta de frutas-Cesta de frutasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
